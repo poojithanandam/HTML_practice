@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <form action="./login_Form1.html">
+        <div>
+        <label for="First Name">First Name</label><br>
+        <input type="text" id="First Name" placeholder="Enter your first name">
+        </div>
+        <div>
+            <label for="Last Name">Last Name</label><br>
+            <input type="text" id="Last Name" placeholder="Enter your last name">
+        </div>
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" placeholder="Enter email" required autocomplete="on">
+        </div>
+        <div>
+            <label for="phone number">Phone number</label><br>
+            <input type="number" id="phone number" placeholder="Enter your phone number">
+        </div>
+        <div>
+            <label for="password">password</label><br>
+            <input type="password" id="password" placeholder="Enter password" required>
+        </div>
+        <div>
+            <label for="confirm password">Confirm Password</label><br>
+            <input type="password" id="password" placeholder="Confirm password" required>
+        </div>
+        <div>
+            <label for="gender">Gender</label><br>
+            <input type="radio" id="gender" name="gender">Male <br>
+            <input type="radio" id="gender" name="gender">Female 
+        </div>
+        <div>
+            <label for="age">Age</label><br>
+            <input type="number" id="age" placeholder="Enter age">
+        </div>
+        <div>
+            <label for="degree">Degree</label><br>
+            <select name="degree" id="degree">
+                <option value="select">select</option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="B.com">B.Com</option>
+                <option value="B.Sc">B.Sc</option>
+            </select>
+        </div>
+        <div>
+            <label for="college">College</label><br>
+            <select name="college" id="college"><br>
+                <option value="select">select</option>
+                <option value="Sri padmavati Mahila Visvavidyalayam">Sri padmavati Mahila Visvavidyalayam</option>
+                <option value="Sri Vishnu Engineering college">Sri Vishnu Engineering college</option>
+                <option value="St.ann's Engineering college">St.ann's Engineering college</option>
+            </select>
+        </div>
+        <div>
+            <label for="graduation completed?">Graduated or not?</label> <br>
+            <input type="radio" id="graduation completed?" name="graduation">completed <br>
+            <input type="radio" id="graduation completed?" name="graduation">pursuing <br>
+        </div>
+        <div>
+            <label for="pursuing">Enter current year</label> <br>
+            <select name="select" id="select">
+                <option value="select">select</option>
+                <option value="1st year">1st year</option>
+                <option value="2nd year">2nd year</option>
+                <option value="3rd year">3rd year</option>
+                <option value="4th year">4th year</option>
+            </select>
+        </div>
+        <div>
+            <label for="Interests">Interests</label><br>
+            <input type="checkbox" id="Interests">Front End <br>
+            <input type="checkbox" id="Interests">Back End <br>
+            <input type="checkbox" id="Interests">Database <br>
+        </div>
+        <div>
+            <label for="resume">Upload resume</label> <br>
+            <input type="file">
+        </div>
+        <div>
+            <input type="submit" value="Confirm registration"><br>
+            <input type="reset" value="reset">
+        </div>
+    </form>
+</body>
+</html>
